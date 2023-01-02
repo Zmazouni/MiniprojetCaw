@@ -1,0 +1,114 @@
+.tout{
+  width: 70%;
+  margin: 1em auto;
+  background-color: rgba(230, 229, 228, 0.884);
+  
+}
+h4{
+  margin-left:150px ;
+}
+.home{
+  margin-top: 60px;
+  margin-left:120px ;
+}
+
+.tout nav{
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(230, 229, 228, 0.884);
+  padding: 1.5em;
+color: black;
+}
+.tout nav > a.first {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+
+.tout .links{
+  display: flex;
+  justify-content: space-evenly;
+  color:black;
+}
+.tout .links a {
+  text-decoration: none;
+  margin: auto 2em;
+  
+  font-weight: bold;
+}
+.tout .links div{
+  margin: auto 2em;
+}
+
+  .button {
+    align-items: center;
+    background-color: #FFFFFF;
+    /* border: 1px solid; */
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    justify-content: center;
+    line-height: 0.6;
+    margin: 0;
+    min-height: 2rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: 200px;
+  }
+  
+  .button:hover,
+  .button:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+  }
+  
+  .button:hover {
+    transform: translateY(-1px);
+  }
+  
+  .button:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+  }
+  
+  table, th, td {
+    border-radius: 5px ;
+    border-style: solid;
+    
+  }
+  .buttons{
+    display: flex;
+  justify-content: space-between;
+    
+  }
+  /* .space{
+    width:15px;
+  } */
+  input {
+    /* border: 1px; */
+    border-radius:  25px;
+    line-height: 0.6;
+
+  }
+  .partie{
+    display: none ;
+  }
+  
